@@ -166,7 +166,7 @@
         </div>
 
         <div class="absolute bottom-32 md:bottom-72 right-0 w-full">
-            <div class="container flex justify-end items-center gap-1 text-xs text-right">
+            <div class="container flex justify-end items-center gap-1 max-md:text-xs text-right">
                 <Icon name="lsicon:location-outline" class="text-xl md:text-3xl" />
                 Hatta, UAE
             </div>
@@ -261,7 +261,7 @@
         </div>
 
         <div class="absolute bottom-32 md:bottom-72 right-0 w-full">
-            <div class="container flex justify-end items-center gap-1 text-xs text-right">
+            <div class="container flex justify-end items-center gap-1 max-md:text-xs text-right">
                 <Icon name="lsicon:location-outline" class="text-xl md:text-3xl" />
                 Fujairah, UAE
             </div>

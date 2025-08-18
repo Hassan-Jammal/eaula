@@ -24,7 +24,7 @@
         </div>
 
         <div class="absolute bottom-10 right-0 w-full">
-            <div class="container flex justify-end items-center gap-1 text-right text-xs text-white">
+            <div class="container flex justify-end items-center gap-1 text-right max-md:text-xs text-white">
                 <Icon name="lsicon:location-outline" class="text-xl md:text-3xl" />
                 Al Ula, KSA
             </div>
