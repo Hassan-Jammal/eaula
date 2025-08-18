@@ -9,7 +9,7 @@
         <NuxtImg src="images/water-drop.webp" alt="Ice Bottle" width="3024" height="3790" />
 
         <div class="absolute top-[40%] -translate-y-1/2 left-0 w-full z-10">
-            <div class="container max-md:flex max-md:justify-between">
+            <div class="container max-md:flex max-md:justify-between max-md:items-center">
                 <div>
                     <h2 class="font-NeueMontrealMedium text-sm md:text-4xl uppercase" data-aos="fade-up">Elevating water</h2>
                     <h3 class="text-sm md:text-4xl mt-4" data-aos="fade-up">Purified. Mineralized. <br /> Sustainable</h3>
