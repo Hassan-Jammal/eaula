@@ -4,10 +4,10 @@
             <div class="container flex justify-between items-center gap-4">
                 <p class="text-xs md:text-sm text-[#A9A9A9]" data-aos="fade-up">© 2025 Eaula Water. All rights reserved.</p>
                 <div class="flex justify-center items-center gap-8" data-aos="fade-up">
-                    <a href="" class="flex">
+                    <a href="https://www.instagram.com/eaulawater" target="_blank" class="flex">
                         <Icon name="ri:instagram-line" class="text-2xl" />
                     </a>
-                    <a href="" class="flex">
+                    <a href="https://www.linkedin.com/company/eaula-water" target="_blank" class="flex">
                         <Icon name="ri:linkedin-fill" class="text-2xl" />
                     </a>
                 </div>
