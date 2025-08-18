@@ -2,7 +2,7 @@
     <section class="container mt-12">
         <NuxtImg src="images/ice-cube-bottle.webp" alt="Ice Bottle" width="3024" height="4604" />
         <h1 class="text-center font-Anton text-6xl md:text-9xl !leading-[150%] uppercase mt-24" data-aos="fade-up">The future <br /> of water <br /> is <span class="opacity-0 invisible hidden">Local</span></h1>
-        <NuxtImg data-aos="fade-up" class="mx-auto mt-12 md:mt-24 max-md:w-2/3" src="images/nature.svg" alt="Ice Bottle" width="733" height="268" />
+        <NuxtImg class="mx-auto mt-12 md:mt-24 max-md:w-2/3" src="images/nature.svg" alt="Ice Bottle" width="733" height="268" />
     </section>
 
     <section id="about-us" class="my-12 py-12 relative">
@@ -277,11 +277,7 @@
                 </div>
                 <div class="md:w-4/5 max-md:mt-12">
                     <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
-                        <div v-for="(item, index) in partners" :key="index"
-                            class="flex flex-col justify-center items-center gap-4 aspect-square border border-[#A7A7A7] rounded-3xl p-4"
-                            data-aos="fade-right"
-                            :data-aos-delay="index * 50"
-                        >
+                        <div v-for="(item, index) in partners" :key="index" class="flex flex-col justify-center items-center gap-4 aspect-square border border-[#A7A7A7] rounded-3xl p-4">
                             <NuxtImg :src="`images/partners/${item.icon}.svg`" :alt="item.alt" width="140" height="140" />
                         </div>
                     </div>
@@ -307,23 +303,34 @@
                             <p class="text-sm mt-4" data-aos="fade-up">Block B, Dubai Science Park</p>
                         </div>
                     </div>
+
+                    <div class="flex justify-between items-center gap-4 mt-12">
+                        <div class="flex justify-center items-center gap-8" data-aos="fade-up">
+                            <a href="https://www.instagram.com/eaulawater" target="_blank" class="flex">
+                                <Icon name="ri:instagram-line" class="text-2xl" />
+                            </a>
+                            <a href="https://www.linkedin.com/company/eaula-water" target="_blank" class="flex">
+                                <Icon name="ri:linkedin-fill" class="text-2xl" />
+                            </a>
+                        </div>
+                    </div>
                 </div>
 
                 <div class="md:w-1/5"></div>
 
                 <div class="md:w-2/5">
-                    <div class="flex flex-col gap-6">
-                        <div class="flex flex-col gap-2" data-aos="fade-up">
+                    <div class="flex flex-col gap-4">
+                        <div class="flex flex-col gap-1" data-aos="fade-up">
                             <label for="full_name" class="text-sm text-[#A9A9A9]">Name*</label>
                             <input v-model="form.full_name" type="text" id="full_name" class="w-full bg-transparent p-2 text-sm border border-[#A9A9A9]" placeholder="Insert your Name" />
                             <div v-if="errors.full_name" class="text-red-500 text-xs">{{ errors.full_name }}</div>
                         </div>
-                        <div class="flex flex-col gap-2" data-aos="fade-up">
+                        <div class="flex flex-col gap-1" data-aos="fade-up">
                             <label for="email" class="text-sm text-[#A9A9A9]">Email*</label>
                             <input v-model="form.email" type="text" id="email" class="w-full bg-transparent p-2 text-sm border border-[#A9A9A9]" placeholder="Insert your Email" />
                             <div v-if="errors.email" class="text-red-500 text-xs">{{ errors.email }}</div>
                         </div>
-                        <div class="flex flex-col gap-2" data-aos="fade-up">
+                        <div class="flex flex-col gap-1" data-aos="fade-up">
                             <label for="mobile-number" class="text-sm text-[#A9A9A9]">Phone Number</label>
                             <div class="relative flex flex-row items-start gap-2">
                                 <div class="flex flex-col gap-1 w-[160px]">
@@ -354,12 +361,12 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="flex flex-col gap-2" data-aos="fade-up">
+                        <div class="flex flex-col gap-1" data-aos="fade-up">
                             <label for="message" class="text-sm text-[#A9A9A9]">Message*</label>
                             <textarea v-model="form.message" id="message" class="w-full bg-transparent p-2 text-sm border border-[#A9A9A9] resize-none" rows="10" placeholder="Message Us"></textarea>
                             <div v-if="errors.message" class="text-red-500 text-xs">{{ errors.message }}</div>
                         </div>
-                        <div class="flex flex-col gap-2" data-aos="fade-up">
+                        <div class="flex flex-col gap-1" data-aos="fade-up">
                             <button id="submit" class="w-full bg-[#081C35] py-2 text-white text-base rounded-full" :disabled="isSubmitting" @click.prevent="handleSubmit">Submit</button>
                             <div v-if="submissionMessage" class="text-sm" :class="{'text-red-500': isError, 'text-[#A9A9A9]': !isError}">{{ submissionMessage }}</div>
                         </div>
