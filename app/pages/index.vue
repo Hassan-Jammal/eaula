@@ -235,7 +235,7 @@
             <div class="container">
                 <div class="flex justify-between">
                     <div class="w-1/2 pr-4 md:pr-12 py-12 border-r-[0.5px] border-white">
-                        <p class="text-base" data-aos="fade-up">Bottles Eliminated ( 500mL )</p>
+                        <p class="text-base" data-aos="fade-up">Bottles Eliminated <br /> (500mL)</p>
                         <AnimatedCounter
                             :end-val="947000"
                             :duration="3"
@@ -246,7 +246,7 @@
                         />
                     </div>
                     <div class="w-1/2 pl-4 md:pl-12 py-12 border-l-[0.5px] border-white">
-                        <p class="text-base" data-aos="fade-up">CO2 Emissions Reduced</p>
+                        <p class="text-base" data-aos="fade-up">CO2 Emissions <br /> Reduced</p>
                         <AnimatedCounter
                             :end-val="78411"
                             :duration="3"
@@ -304,7 +304,7 @@
                         </div>
                     </div>
 
-                    <div class="flex justify-between items-center gap-4 mt-12">
+                    <div class="flex justify-between items-center gap-4 mt-6 md:mt-12">
                         <div class="flex justify-center items-center gap-8" data-aos="fade-up">
                             <a href="https://www.instagram.com/eaulawater" target="_blank" class="flex">
                                 <Icon name="ri:instagram-line" class="text-2xl" />
