@@ -1,12 +1,12 @@
 <template>
     <section class="container mt-12">
-        <NuxtImg src="images/ice-cube-bottle.png" alt="Ice Bottle" width="3024" height="4604" />
+        <NuxtImg src="images/ice-cube-bottle.webp" alt="Ice Bottle" width="3024" height="4604" />
         <h1 class="text-center font-Anton text-6xl md:text-9xl !leading-[150%] uppercase mt-24" data-aos="fade-up">The future <br /> of water <br /> is <span class="opacity-0 invisible hidden">Local</span></h1>
         <NuxtImg data-aos="fade-up" class="mx-auto mt-12 md:mt-24 max-md:w-2/3" src="images/nature.svg" alt="Ice Bottle" width="733" height="268" />
     </section>
 
     <section id="about-us" class="my-12 py-12 relative">
-        <NuxtImg src="images/water-drop.png" alt="Ice Bottle" width="3024" height="3790" />
+        <NuxtImg src="images/water-drop.webp" alt="Ice Bottle" width="3024" height="3790" />
 
         <div class="absolute top-[40%] -translate-y-1/2 left-0 w-full z-10">
             <div class="container max-md:flex max-md:justify-between">
@@ -64,7 +64,7 @@
 
     <section id="our-dna" class="py-56 md:py-96 relative before:content-[''] text-white">
         <div class="absolute bottom-0 left-0 w-full h-full -z-10">
-            <NuxtImg class="w-full h-full max-md:object-cover" src="images/mountains.png" alt="Mountains" width="" height="" />
+            <NuxtImg class="w-full h-full max-md:object-cover" src="images/mountains.webp" alt="Mountains" width="" height="" />
         </div>
 
         <div class="relative container">
@@ -184,12 +184,12 @@
                     
                     <div class="flex max-md:flex-col gap-8 mt-12">
                         <div data-aos="fade-right" data-aos-delay="0">
-                            <NuxtImg class="w-full" src="images/nick-habr.png" alt="Nick Habr" width="700" height="822" />
+                            <NuxtImg class="w-full" src="images/nick-habr.webp" alt="Nick Habr" width="700" height="822" />
                             <h4 class="text-lg mt-4">Nick Habr</h4>
                             <h5 class="text-base text-[#A9A9A9]">Co-Founder</h5>
                         </div>
                         <div data-aos="fade-right" data-aos-delay="100">
-                            <NuxtImg class="w-full" src="images/bilal-ballout.png" alt="Bilal Ballout" width="700" height="822" />
+                            <NuxtImg class="w-full" src="images/bilal-ballout.webp" alt="Bilal Ballout" width="700" height="822" />
                             <h4 class="text-lg mt-4">Bilal Ballout</h4>
                             <h5 class="text-base text-[#A9A9A9]">Co-Founder</h5>
                         </div>
@@ -220,7 +220,7 @@
 
     <section class="py-56 md:py-96 relative before:content-[''] text-white">
         <div class="absolute bottom-0 left-0 w-full h-full -z-10">
-            <NuxtImg class="w-full h-full max-md:object-cover" src="images/river.png" alt="River" width="" height="" />
+            <NuxtImg class="w-full h-full max-md:object-cover" src="images/river.webp" alt="River" width="" height="" />
         </div>
 
         <div class="container">

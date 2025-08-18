@@ -13,13 +13,13 @@
                 </div>
             </div>
         </div>
-        <NuxtImg class="hidden md:block w-full h-full" src="images/eaula-water-canyon-desktop.png" alt="Eaula Water Canyon" width="" height="" />
-        <NuxtImg class="block md:hidden w-full h-full" src="images/eaula-water-canyon-mobile.png" alt="Eaula Water Canyon" width="" height="" />
+        <NuxtImg class="hidden md:block w-full h-full" src="images/eaula-water-canyon-desktop.webp" alt="Eaula Water Canyon" width="" height="" />
+        <NuxtImg class="block md:hidden w-full h-full" src="images/eaula-water-canyon-mobile.webp" alt="Eaula Water Canyon" width="" height="" />
         <div class="relative">
-            <NuxtImg class="hidden md:block w-full h-full" src="images/canyon-desktop.png" alt="Canyon" width="" height="" />
-            <NuxtImg class="block md:hidden w-full h-full" src="images/canyon-mobile.png" alt="Canyon" width="" height="" />
+            <NuxtImg class="hidden md:block w-full h-full" src="images/canyon-desktop.webp" alt="Canyon" width="" height="" />
+            <NuxtImg class="block md:hidden w-full h-full" src="images/canyon-mobile.webp" alt="Canyon" width="" height="" />
             <div class="absolute top-0 left-0 w-full h-full flex flex-col justify-center">
-                <h4 class="font-NeueMontrealMedium text-3xl md:text-6xl text-white text-center leading-tight uppercase w-min mx-auto" data-aos="fade-up">Hydrating the World</h4>
+                <h4 class="w-min mx-auto font-NeueMontrealMedium text-3xl md:text-6xl !leading-tight text-white text-center uppercase" data-aos="fade-up">Hydrating the World</h4>
             </div>
         </div>
 
