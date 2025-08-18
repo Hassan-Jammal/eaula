@@ -71,7 +71,6 @@ export default defineNuxtConfig({
 		provider: "twicpics",
 	},
 	aos: {
-		easing: 'ease', // default easing for AOS animations
 		once: true, // whether animation should happen only once - while scrolling down
 	},
 	modules: ['@nuxtjs/tailwindcss', '@nuxt/icon', "@nuxt/image", "nuxt-aos"]
