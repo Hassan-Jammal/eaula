@@ -378,15 +378,15 @@
     useTextAnimateOnScroll(); // automatically handles all elements with .animated-text
 
     useSeoMeta({ 
-        title: 'Homepage',
-        description: '',
+        title: '',
+        description: 'The future of water is local',
 
-        ogTitle: 'Homepage',
-        ogDescription: '',
+        ogTitle: '',
+        ogDescription: 'The future of water is local',
         ogImage: 'https://moya.com/images/og-image-1200x630.webp',
 
-        twitterTitle: 'Homepage',
-        twitterDescription: '',
+        twitterTitle: '',
+        twitterDescription: 'The future of water is local',
         twitterCard: 'summary_large_image',
     })
 
