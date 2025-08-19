@@ -136,8 +136,8 @@
                     </div>
                     <span class="block absolute top-0 left-2 -translate-x-1/2 bg-white w-[1px] h-full"></span>
                     <div class="md:w-4/5" data-aos="fade-up">
-                        <h2 class="text-[#F5F5F5] text-2xl">Advanced Filtration Installation</h2>
-                        <p class="mt-8">Eaula delivers premium still and sparkling water, purified with high-grade Italian filtration and served in elegant, microplastic-free glass bottles.</p>
+                        <h2 class="text-[#F5F5F5] text-2xl">Bottling with Sustainability</h2>
+                        <p class="mt-8">Each bottle is filled directly at the venue using advanced Italian filtration systems. After use, it is sanitized and prepared for reuse, delivering freshness, with minimal impact.</p>
                     </div>
                 </div>
                 <div class="relative flex justify-start items-start gap-8 pt-8">
@@ -147,8 +147,8 @@
                     </div>
                     <span class="block absolute top-0 left-2 -translate-x-1/2 bg-white w-[1px] h-full"></span>
                     <div class="md:w-4/5" data-aos="fade-up">
-                        <h2 class="text-[#F5F5F5] text-2xl">Advanced Filtration Installation</h2>
-                        <p class="mt-8">Eaula delivers premium still and sparkling water, purified with high-grade Italian filtration and served in elegant, microplastic-free glass bottles.</p>
+                        <h2 class="text-[#F5F5F5] text-2xl">Continuous Quality Control</h2>
+                        <p class="mt-8">Eaula meets all Dubai and international safety standards, with regular lab testing and strict quality checks to ensure purity and consistency.</p>
                     </div>
                 </div>
                 <div class="relative flex justify-start items-start gap-8 pt-8">
@@ -158,8 +158,8 @@
                     </div>
                     <span class="block absolute top-0 left-2 -translate-x-1/2 bg-white w-[1px] h-full"></span>
                     <div class="md:w-4/5" data-aos="fade-up">
-                        <h2 class="text-[#F5F5F5] text-2xl">Advanced Filtration Installation</h2>
-                        <p class="mt-8">Eaula delivers premium still and sparkling water, purified with high-grade Italian filtration and served in elegant, microplastic-free glass bottles.</p>
+                        <h2 class="text-[#F5F5F5] text-2xl">Redefining Water Standards</h2>
+                        <p class="mt-8">Eaula eliminates single-use plastics by using reusable glass bottles, offering a scalable and sustainable water solution tailored for the hospitality industry.</p>
                     </div>
                 </div>
             </div>
@@ -388,14 +388,14 @@
 
     useSeoMeta({ 
         title: '',
-        description: 'The future of water is local',
+        description: 'THE FUTURE OF WATER IS LOCAL',
 
         ogTitle: '',
-        ogDescription: 'The future of water is local',
+        ogDescription: 'THE FUTURE OF WATER IS LOCAL',
         ogImage: 'https://moya.com/images/og-image-1200x630.webp',
 
         twitterTitle: '',
-        twitterDescription: 'The future of water is local',
+        twitterDescription: 'THE FUTURE OF WATER IS LOCAL',
         twitterCard: 'summary_large_image',
     })
 
@@ -461,7 +461,7 @@
         { icon: "awani", alt: "Awani Restaurant logo" },
         { icon: "catch-22", alt: "Catch 22 Restaurant logo" },
         { icon: "smoky-beach", alt: "Smoky Beach Dubai logo" },
-        { icon: "seven-sisters-dubai", alt: "Seven Sisters Dubai logo" },
+        // { icon: "seven-sisters-dubai", alt: "Seven Sisters Dubai logo" },
         { icon: "bosporus", alt: "Bosporus Turkish Cuisine logo" },
         { icon: "matter-by-icoffee", alt: "Matter by iCoffee logo" },
         { icon: "black-coffee", alt: "Black Coffee logo" },
@@ -744,13 +744,12 @@
             will-change: transform
             transform: translateX(0)
             white-space: nowrap
-            animation: marquee 24s linear infinite
+            animation: marquee 12s linear infinite
 
         &:hover
             span
                 animation-play-state: paused
             
-
     @keyframes sonar-ping
         0%
             transform: translateY(-50%) scale(1)
