@@ -291,20 +291,10 @@
             <div class="relative flex max-md:flex-col md:justify-between gap-6 md:gap-12">
                 <div class="md:w-2/5">
                     <h3 class="text-lg uppercase text-[#A9A9A9]" data-aos="fade-up">Contact Us</h3>
-                    <h2 class="font-NeueMontrealMedium text-4xl mt-4" data-aos="fade-up">Stay Connected to The Source.</h2>
+                    <h2 class="font-NeueMontrealMedium text-4xl mt-4" data-aos="fade-up">Stay Connected <br /> to The Source.</h2>
 
-                    <div class="flex justify-between gap-4 mt-12 md:mt-24">
-                        <div class="w-1/2">
-                            <p class="font-NeueMontrealMedium text-base" data-aos="fade-up">Contact</p>
-                            <p class="text-sm mt-4" data-aos="fade-up">info@eaulawater.com</p>
-                        </div>
-                        <div class="w-1/2">
-                            <p class="font-NeueMontrealMedium text-base" data-aos="fade-up">Address</p>
-                            <p class="text-sm mt-4" data-aos="fade-up">Block B, Dubai Science Park</p>
-                        </div>
-                    </div>
                     
-                    <div class="mt-6 md:mt-12">
+                    <div class="mt-12 md:mt-24">
                         <p class="font-NeueMontrealMedium text-2xl" data-aos="fade-up">Join the Movement</p>
                         <div class="flex items-center gap-8 mt-4" data-aos="fade-up">
                             <a href="https://www.instagram.com/eaulawater" target="_blank" class="flex">
@@ -313,6 +303,17 @@
                             <a href="https://www.linkedin.com/company/eaula-water" target="_blank" class="flex">
                                 <Icon name="ri:linkedin-fill" class="text-2xl" />
                             </a>
+                        </div>
+                    </div>
+
+                     <div class="flex justify-between gap-4 mt-12 md:mt-24">
+                        <div class="w-1/2">
+                            <p class="font-NeueMontrealMedium text-base" data-aos="fade-up">Contact</p>
+                            <p class="text-sm mt-4" data-aos="fade-up">info@eaulawater.com</p>
+                        </div>
+                        <div class="w-1/2">
+                            <p class="font-NeueMontrealMedium text-base" data-aos="fade-up">Address</p>
+                            <p class="text-sm mt-4" data-aos="fade-up">Block B, Dubai Science Park</p>
                         </div>
                     </div>
                 </div>
