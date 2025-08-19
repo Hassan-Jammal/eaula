@@ -611,7 +611,7 @@
                 throw new Error('Validation Error');
             }
 
-            submissionMessage.value = "Thank you for your message."
+            submissionMessage.value = "Thank you! We've got your info and will be in touch soon."
             isError.value = false;
             // Clear success message after 2 seconds
             setTimeout(() => {
