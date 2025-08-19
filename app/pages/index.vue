@@ -574,7 +574,7 @@
         }
 
         try {
-            // const API_ENDPOINT = 'https://backend.moya.com/wp-json/contact-form-7/v1/contact-forms/13/feedback';
+            const API_ENDPOINT = 'https://api.eaulawater.com/wp-json/contact-form-7/v1/contact-forms/6/feedback';
             const formData = new FormData();
 
             // Append top-level fields
