@@ -17,7 +17,7 @@
 
         <!-- Overlay Menu -->
         <transition name="fade">
-            <div v-if="isOpen" class="fixed inset-0 bg-[#8F8F8F]/80 flex flex-col items-center justify-center space-y-8 text-2xl font-semibold z-40">
+            <div v-if="isOpen" class="fixed inset-0 bg-[#8F8F8F] flex flex-col items-center justify-center space-y-8 text-2xl font-semibold z-40">
                 <!-- Nav Links -->
                 <nav class="flex flex-col items-center space-y-8" @click="isOpen = false">
                     <ScrollButton target="about-us" class="cursor-pointer" data-aos="fade-down" data-aos-delay="00">ABOUT US</ScrollButton>
