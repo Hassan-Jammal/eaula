@@ -1,6 +1,6 @@
 <template>
     <section class="container mt-12">
-        <NuxtImg src="images/ice-cube-bottle.webp" alt="Ice Bottle" width="3024" height="4604" />
+        <NuxtImg src="images/ice-cube-bottle.webp" alt="Ice Bottle" width="2097" height="3248" />
         <h1 class="text-center font-Anton text-6xl md:text-9xl !leading-[150%] uppercase mt-24" data-aos="fade-up">The future <br /> of water <br /> is <span class="opacity-0 invisible hidden">Local</span></h1>
         <NuxtImg class="mx-auto mt-12 md:mt-24 max-md:w-2/3" src="images/nature.svg" alt="Ice Bottle" width="733" height="268" />
     </section>
@@ -12,7 +12,7 @@
             <div class="container max-md:flex max-md:justify-between max-md:items-center">
                 <div>
                     <h2 class="font-NeueMontrealMedium text-sm md:text-4xl uppercase" data-aos="fade-up">Elevating water</h2>
-                    <h3 class="text-sm md:text-4xl mt-4" data-aos="fade-up">Purified. Mineralized. <br /> Sustainable</h3>
+                    <h3 class="text-sm md:text-4xl mt-4" data-aos="fade-up">Purified. Mineralized. <br /> Sustainable.</h3>
                 </div>
 
                 <AnimatedCounter 
@@ -278,7 +278,7 @@
                 <div class="md:w-4/5 max-md:mt-12">
                     <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
                         <div v-for="(item, index) in partners" :key="index" class="flex flex-col justify-center items-center gap-4 aspect-square border border-[#A7A7A7] rounded-3xl p-4">
-                            <NuxtImg :src="`images/partners/${item.icon}.svg`" :alt="item.alt" width="140" height="140" />
+                            <NuxtImg :src="`images/partners/${item.icon}.webp`" :alt="item.alt" width="140" height="140" />
                         </div>
                     </div>
                 </div>
@@ -303,9 +303,10 @@
                             <p class="text-sm mt-4" data-aos="fade-up">Block B, Dubai Science Park</p>
                         </div>
                     </div>
-
-                    <div class="flex justify-between items-center gap-4 mt-6 md:mt-12">
-                        <div class="flex justify-center items-center gap-8" data-aos="fade-up">
+                    
+                    <div class="mt-6 md:mt-12">
+                        <p class="font-NeueMontrealMedium text-2xl" data-aos="fade-up">Join the Movement</p>
+                        <div class="flex items-center gap-8 mt-4" data-aos="fade-up">
                             <a href="https://www.instagram.com/eaulawater" target="_blank" class="flex">
                                 <Icon name="ri:instagram-line" class="text-2xl" />
                             </a>
@@ -330,10 +331,10 @@
                             <input v-model="form.email" type="text" id="email" class="w-full bg-transparent p-2 text-sm border border-[#A9A9A9]" placeholder="Insert your Email" />
                             <div v-if="errors.email" class="text-red-500 text-xs">{{ errors.email }}</div>
                         </div>
-                        <div class="flex flex-col gap-1" data-aos="fade-up">
-                            <label for="mobile-number" class="text-sm text-[#A9A9A9]">Phone Number</label>
+                        <div class="flex flex-col gap-1">
+                            <label for="mobile" class="text-sm text-[#A9A9A9]" data-aos="fade-up">Phone Number</label>
                             <div class="relative flex flex-row items-start gap-2">
-                                <div class="flex flex-col gap-1 w-[160px]">
+                                <div class="flex flex-col gap-1 w-[160px]" data-aos="fade-up">
                                     <div @click="toggleDropdown" class="custom-dropdown w-full bg-[#A9A9A9]/20 p-2 text-sm border border-[#A9A9A9] outline-none cursor-pointer">
                                         <div id="selected-country" class="flex justify-start items-center gap-2 select-none">
                                             <NuxtImg loading="lazy" :src="`/images/flags/${selectedCountry.iso2 || 'LB' }.svg`" :alt="selectedCountry.name || 'Lebanon'" width="20" height="20" />
@@ -355,7 +356,7 @@
                                     </template>
                                 </ul>
 
-                                <div class="flex flex-col gap-1 w-full">
+                                <div class="flex flex-col gap-1 w-full" data-aos="fade-up">
                                     <input v-model="form.mobile" type="text" id="mobile" placeholder="Insert your Phone Number" class="w-full bg-transparent p-2 text-sm border border-[#A9A9A9] outline-none">
                                     <div v-if="errors.mobile" class="text-xs text-red-500">{{ errors.mobile }}</div>
                                 </div>

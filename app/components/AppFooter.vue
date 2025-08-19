@@ -12,7 +12,7 @@
 
         <div class="absolute bottom-10 right-0 w-full">
             <div class="container flex justify-between items-center gap-4">
-                <p class="text-xs md:text-sm text-white" data-aos="fade-up">© 2025 Eaula Water. All rights reserved.</p>
+                <p class="text-xs md:text-sm text-white">© 2025 Eaula Water. All rights reserved.</p>
 
                 <div class="flex justify-between items-center gap-1 text-right max-md:text-xs text-white">
                     <Icon name="lsicon:location-outline" class="text-xl md:text-3xl" />
