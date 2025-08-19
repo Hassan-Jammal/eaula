@@ -607,7 +607,7 @@
                 // Clear error message after 2 seconds
                 setTimeout(() => {
                     submissionMessage.value = '';
-                }, 2000);
+                }, 4000);
                 throw new Error('Validation Error');
             }
 
@@ -616,7 +616,7 @@
             // Clear success message after 2 seconds
             setTimeout(() => {
                 submissionMessage.value = '';
-            }, 2000);
+            }, 4000);
 
             resetForm();
             //Handle success response, such as notifying the user or redirecting
@@ -629,7 +629,7 @@
             // Clear error message after 2 seconds
             setTimeout(() => {
                 submissionMessage.value = '';
-            }, 2000);
+            }, 4000);
         } finally {
             // Re-enable the submit button
             isSubmitting.value = false;
