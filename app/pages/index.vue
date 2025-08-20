@@ -292,10 +292,6 @@
                 <div class="md:w-2/5">
                     <h3 class="text-lg uppercase text-[#A9A9A9]" data-aos="fade-up">Contact Us</h3>
                     <h2 class="font-NeueMontrealMedium text-4xl mt-4" data-aos="fade-up">Stay Connected <br /> to The Source.</h2>
-
-                    
-                    <div class="mt-12 md:mt-24">
-                        <p class="font-NeueMontrealMedium text-2xl" data-aos="fade-up">Join the Movement</p>
                         <div class="flex items-center gap-8 mt-4" data-aos="fade-up">
                             <a href="https://www.instagram.com/eaulawater" target="_blank" class="flex">
                                 <Icon name="ri:instagram-line" class="text-2xl" />
@@ -304,7 +300,10 @@
                                 <Icon name="ri:linkedin-fill" class="text-2xl" />
                             </a>
                         </div>
-                    </div>
+                    
+                    <!-- <div class="mt-12 md:mt-24">
+                        <p class="font-NeueMontrealMedium text-2xl" data-aos="fade-up">Join the Movement</p>
+                    </div> -->
 
                      <div class="flex justify-between gap-4 mt-12 md:mt-24">
                         <div class="w-1/2">
@@ -392,7 +391,7 @@
 
         ogTitle: '',
         ogDescription: 'THE FUTURE OF WATER IS LOCAL',
-        ogImage: 'https://moya.com/images/og-image-1200x630.webp',
+        ogImage: 'https://eaulawater.com/images/og-image-1200x630.webp',
 
         twitterTitle: '',
         twitterDescription: 'THE FUTURE OF WATER IS LOCAL',
