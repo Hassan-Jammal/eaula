@@ -2,7 +2,7 @@
     <section class="container mt-12">
         <NuxtImg src="images/ice-cube-bottle.webp" alt="Ice Bottle" width="2097" height="3248" />
         <h1 class="text-center font-Anton text-6xl md:text-9xl !leading-[150%] uppercase mt-24" data-aos="fade-up">The future <br /> of water <br /> is <span class="opacity-0 invisible hidden">Local</span></h1>
-        <NuxtImg class="mx-auto mt-12 md:mt-24 max-md:w-2/3" src="images/nature.webp" alt="Eaula" width="733" height="268" />
+        <NuxtImg class="mx-auto mt-12 md:mt-24 max-md:w-2/3" src="images/nature.webp" alt="Eaula" width="513" height="188" />
     </section>
 
     <section id="about-us" class="my-12 py-12 relative">
