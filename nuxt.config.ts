@@ -52,9 +52,9 @@ export default defineNuxtConfig({
 			meta: [
 				{ name: "theme-color", content: "#AEB4BD" },
 				{ name: "format-detection", content: "telephone=no" },
-				{ name: "author", content: "Eaula" },
-				{ name: "og:site_name", content: "Eaula" },
-				{ name: "og:image:alt", content: "Eaula" },
+				{ name: "author", content: "eaula" },
+				{ name: "og:site_name", content: "eaula" },
+				{ name: "og:image:alt", content: "eaula" },
 				{ name: "og:image:width", content: "1200" },
 				{ name: "og:image:height", content: "630" },
 				{ name: "mobile-web-app-capable", content: "yes" },

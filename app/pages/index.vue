@@ -57,8 +57,8 @@
 
     <section class="relative">
         <div class="marquee text-3xl md:text-9xl">
-            <span>No shipping&nbsp;&centerdot;&nbsp;No compromise&nbsp;&centerdot;&nbsp;</span>
-            <span>No shipping&nbsp;&centerdot;&nbsp;No compromise&nbsp;&centerdot;&nbsp;</span>
+            <span>No shipping&nbsp;&centerdot;&nbsp;No compromise&nbsp;&centerdot;&nbsp;NO plastic&nbsp;&centerdot;&nbsp;</span>
+            <span>No shipping&nbsp;&centerdot;&nbsp;No compromise&nbsp;&centerdot;&nbsp;NO plastic&nbsp;&centerdot;&nbsp;</span>
         </div>
     </section>
 
