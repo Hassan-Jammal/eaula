@@ -9,15 +9,15 @@
         <NuxtImg src="images/water-drop.webp" alt="Ice Bottle" width="3024" height="3790" />
 
         <div class="absolute top-[40%] -translate-y-1/2 left-0 w-full z-10">
-            <div class="container max-md:flex max-md:justify-between">
+            <div class="container flex justify-between">
                 <div>
                     <h2 class="font-NeueMontrealMedium text-sm md:text-4xl uppercase" data-aos="fade-up">Elevating water</h2>
                     <h3 class="text-sm md:text-4xl mt-4" data-aos="fade-up">Purified. Mineralized. <br /> Sustainable.</h3>
                 </div>
 
-                <div class="md:hidden max-md:text-6xl">
+                <div class="text-right text-[#A9A9A9]">
                     <h2 class="font-NeueMontrealMedium text-sm md:text-4xl uppercase" data-aos="fade-up">Alkaline</h2>
-                    <h3 class="font-NeueMontrealMedium text-sm md:text-4xl mt-4 uppercase" data-aos="fade-up">& Balanced</h3>
+                    <h3 class="font-NeueMontrealMedium text-sm md:text-4xl uppercase mt-4" data-aos="fade-up">& Balanced</h3>
                 </div>
                 <!-- <AnimatedCounter 
                     :end-val="7.9" 
@@ -46,11 +46,11 @@
             </div>
         </div>
 
-        <div class="max-md:hidden absolute bottom-[5%] -translate-y-1/2 right-0 md:right-16 lg:right-24 4xl:right-44 w-full z-10">
+        <!-- <div class="max-md:hidden absolute bottom-[5%] -translate-y-1/2 right-0 md:right-16 lg:right-24 4xl:right-44 w-full z-10">
             <div class="container text-3xl sm:text-7xl lg:text-8xl xl:text-9xl 3xl:text-[180px] text-right">
                 <h2 class="font-NeueMontrealMedium text-sm md:text-4xl uppercase" data-aos="fade-up">Alkaline &</h2>
                 <h3 class="text-sm md:text-4xl mt-4" data-aos="fade-up">Balanced</h3>
-                <!-- <AnimatedCounter 
+                <AnimatedCounter 
                     :end-val="7.9" 
                     :decimal-places="1" 
                     prefix="~ " 
@@ -58,9 +58,9 @@
                     wrapper-class="container text-[#A9A9A9] text-3xl sm:text-7xl lg:text-8xl xl:text-9xl 3xl:text-[180px] text-right"
                     suffix-class="text-3xl text-black uppercase"
                     data-aos="fade-up"
-                /> -->
+                />
             </div>
-        </div>
+        </div> -->
     </section>
 
     <section class="relative">
