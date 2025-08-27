@@ -1,12 +1,12 @@
 <template>
     <footer class="relative">
-        <NuxtImg class="hidden md:block w-full h-full" src="images/eaula-water-canyon-desktop.webp" alt="Eaula Water Canyon" width="" height="" />
-        <NuxtImg class="block md:hidden w-full h-full" src="images/eaula-water-canyon-mobile.webp" alt="Eaula Water Canyon" width="" height="" />
+        <NuxtImg class="hidden md:block w-full h-full" src="images/eaula-water-canyon-desktop.webp" loading="lazy" alt="Eaula Water Canyon" width="3024" height="404" />
+        <NuxtImg class="block md:hidden w-full h-full" src="images/eaula-water-canyon-mobile.webp" loading="lazy" alt="Eaula Water Canyon" width="700" height="166" />
         <div class="relative">
-            <NuxtImg class="hidden md:block w-full h-full" src="images/canyon-desktop.webp" alt="Canyon" width="" height="" />
-            <NuxtImg class="block md:hidden w-full h-full" src="images/canyon-mobile.webp" alt="Canyon" width="" height="" />
+            <NuxtImg class="hidden md:block w-full h-full" src="images/canyon-desktop.webp" loading="lazy" alt="Canyon" width="3028" height="996" />
+            <NuxtImg class="block md:hidden w-full h-full" src="images/canyon-mobile.webp" loading="lazy"   alt="Canyon" width="780" height="688" />
             <div class="absolute top-0 left-0 w-full h-full flex flex-col justify-center">
-                <h4 class="w-min mx-auto font-NeueMontrealMedium text-3xl md:text-6xl !leading-tight text-white text-center uppercase" data-aos="fade-up">Hydrating the World</h4>
+                <h5 class="w-min mx-auto font-NeueMontrealMedium text-3xl md:text-6xl !leading-tight text-white text-center uppercase" data-aos="fade-up">Hydrating the World</h5>
             </div>
         </div>
 

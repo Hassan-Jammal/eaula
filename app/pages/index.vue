@@ -1,12 +1,12 @@
 <template>
     <section class="container mt-12">
-        <NuxtImg src="images/ice-cube-bottle.webp" alt="Ice Bottle" width="2097" height="3248" />
+        <NuxtImg src="images/ice-cube-bottle.webp" format="webp" preload loading="eager" fetch-priority="high" alt="Ice Bottle" width="4194" height="6496" />
         <h1 class="text-center font-Anton text-6xl md:text-9xl !leading-[150%] uppercase mt-24" data-aos="fade-up">The future <br /> of water <br /> is <span class="opacity-0 invisible hidden">Local</span></h1>
-        <NuxtImg class="mx-auto mt-12 md:mt-24 max-md:w-2/3" src="images/nature.webp" alt="Eaula" width="513" height="188" />
+        <NuxtImg class="mx-auto mt-12 md:mt-24 max-md:w-2/3" src="images/nature.webp" format="webp" preload loading="eager" fetch-priority="high" alt="Eaula" width="513" height="188" />
     </section>
 
     <section id="about-us" class="my-12 py-12 relative">
-        <NuxtImg src="images/water-drop.webp" alt="Ice Bottle" width="3024" height="3790" />
+        <NuxtImg src="images/water-drop.webp" loading="lazy" alt="Ice Bottle" width="3024" height="3790" />
 
         <div class="absolute top-[40%] -translate-y-1/2 left-0 w-full z-10">
             <div class="container flex justify-between">
@@ -72,7 +72,7 @@
 
     <section id="our-dna" class="py-56 md:py-96 relative before:content-[''] text-white">
         <div class="absolute bottom-0 left-0 w-full h-full -z-10">
-            <NuxtImg class="w-full h-full max-md:object-cover" src="images/mountains.webp" alt="Mountains" width="" height="" />
+            <NuxtImg class="w-full h-full max-md:object-cover" src="images/mountains.webp" loading="lazy" alt="Mountains" width="3024" height="2402" />
         </div>
 
         <div class="relative container">
@@ -192,12 +192,12 @@
                     
                     <div class="flex max-md:flex-col gap-8 mt-12">
                         <div data-aos="fade-right" data-aos-delay="0">
-                            <NuxtImg class="w-full" src="images/nick-habr.webp" alt="Nick Habr" width="700" height="822" />
+                            <NuxtImg class="w-full" src="images/nick-habr.webp" loading="lazy" alt="Nick Habr" width="700" height="822" />
                             <h4 class="text-lg mt-4">Nick Habr</h4>
                             <h5 class="text-base text-[#A9A9A9]">Co-Founder</h5>
                         </div>
                         <div data-aos="fade-right" data-aos-delay="100">
-                            <NuxtImg class="w-full" src="images/bilal-ballout.webp" alt="Bilal Ballout" width="700" height="822" />
+                            <NuxtImg class="w-full" src="images/bilal-ballout.webp" loading="lazy" alt="Bilal Ballout" width="700" height="822" />
                             <h4 class="text-lg mt-4">Bilal Ballout</h4>
                             <h5 class="text-base text-[#A9A9A9]">Co-Founder</h5>
                         </div>
@@ -219,7 +219,7 @@
                     :data-aos-delay="index * 100"
                 >
 
-                    <NuxtImg class="w-20" :src="`images/certifications/${item.icon}.svg`" :alt="item.alt" width="200" height="200" />
+                    <NuxtImg class="w-20" :src="`images/certifications/${item.icon}.svg`" loading="lazy" :alt="item.alt" width="200" height="200" />
                     <p class="text-center text-xs md:text-2xl">{{ item.text }}</p>
                 </div>
             </div>
@@ -228,7 +228,7 @@
 
     <section class="py-56 md:py-96 relative before:content-[''] text-white">
         <div class="absolute bottom-0 left-0 w-full h-full -z-10">
-            <NuxtImg class="w-full h-full max-md:object-cover" src="images/river.webp" alt="River" width="" height="" />
+            <NuxtImg class="w-full h-full max-md:object-cover" src="images/river.webp" loading="lazy" alt="River" width="3026" height="2450" />
         </div>
 
         <div class="container">
@@ -286,7 +286,7 @@
                 <div class="md:w-4/5 max-md:mt-12">
                     <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
                         <div v-for="(item, index) in partners" :key="index" class="flex flex-col justify-center items-center gap-4 aspect-square border border-[#A7A7A7] rounded-3xl p-4">
-                            <NuxtImg :src="`images/partners/${item.icon}.webp`" :alt="item.alt" width="140" height="140" />
+                            <NuxtImg :src="`images/partners/${item.icon}.webp`" loading="lazy" :alt="item.alt" width="140" height="140" />
                         </div>
                     </div>
                 </div>
@@ -301,10 +301,10 @@
                     <h3 class="text-lg uppercase text-[#A9A9A9]" data-aos="fade-up">Contact Us</h3>
                     <h2 class="font-NeueMontrealMedium text-4xl mt-4" data-aos="fade-up">Stay Connected <br /> to The Source.</h2>
                         <div class="flex items-center gap-8 mt-4" data-aos="fade-up">
-                            <a href="https://www.instagram.com/eaulawater" target="_blank" class="flex">
+                            <a href="https://www.instagram.com/eaulawater" target="_blank" aria-label="Follow us on Instagram" class="flex">
                                 <Icon name="ri:instagram-line" class="text-2xl" />
                             </a>
-                            <a href="https://www.linkedin.com/company/eaula-water" target="_blank" class="flex">
+                            <a href="https://www.linkedin.com/company/eaula-water" target="_blank" aria-label="Connect with us on Linkedin" class="flex">
                                 <Icon name="ri:linkedin-fill" class="text-2xl" />
                             </a>
                         </div>
