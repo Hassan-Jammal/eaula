@@ -482,6 +482,9 @@
         { icon: "circle-cafe", alt: "Circle Café logo" },
         { icon: "charlie-and-friends", alt: "Charlie and Friends logo" },
         { icon: "wine-arts-soiree", alt: "Wine & Arts Soiree logo" },
+        { icon: "hoof", alt: "Hoof" },
+        { icon: "aura", alt: "Aura Bakery & Cafe" },
+        { icon: "society", alt: "Society" },
     ]
 
     const { selectedCountry, detectCountry, countriesData } = useCountry();
