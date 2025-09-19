@@ -485,6 +485,9 @@
         { icon: "hoof", alt: "Hoof" },
         { icon: "aura", alt: "Aura Bakery & Cafe" },
         { icon: "society", alt: "Society" },
+        { icon: "oforo", alt: "Oforo" },
+        { icon: "miyabi", alt: "Miyabi" },
+        { icon: "marini", alt: "Marini" },
     ]
 
     const { selectedCountry, detectCountry, countriesData } = useCountry();
