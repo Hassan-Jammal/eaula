@@ -31,18 +31,11 @@
             </div>
         </div>
 
-        <div class="absolute bottom-[20%] -translate-y-1/2 left-0 w-full z-10">
-            <div class="container grid grid-cols-2 text-center">
-                <h2 class="animated-text text-xl sm:text-4xl lg:text-5xl xl:text-6xl 2xl:text-7xl 3xl:text-8xl">Born in the</h2>
-                <h3 class="animated-text text-xl sm:text-4xl lg:text-5xl xl:text-6xl 2xl:text-7xl 3xl:text-8xl">UAE</h3>
-            </div>
-        </div>
-
         <div class="absolute bottom-[15%] -translate-y-1/2 left-0 w-full z-10">
-            <div class="container grid grid-cols-3 text-center">
-                <h2 class="animated-text text-xl sm:text-4xl lg:text-5xl xl:text-6xl 2xl:text-7xl 3xl:text-8xl text-[#A9A9A9]">Built for the</h2>
+            <div class="container grid grid-cols-3">
+                <h2 class="animated-text text-xl sm:text-4xl lg:text-5xl xl:text-6xl 2xl:text-7xl 3xl:text-8xl text-right">Born in the<br />UAE &nbsp;&nbsp;&nbsp;&nbsp;</h2>
                 <div></div>
-                <h3 class="animated-text text-xl sm:text-4xl lg:text-5xl xl:text-6xl 2xl:text-7xl 3xl:text-8xl text-[#A9A9A9]">World</h3>
+                <h2 class="animated-text text-xl sm:text-4xl lg:text-5xl xl:text-6xl 2xl:text-7xl 3xl:text-8xl text-[#A9A9A9]">Built for the<br />&nbsp;&nbsp;&nbsp;&nbsp;World</h2>
             </div>
         </div>
 
@@ -87,7 +80,7 @@
                     
                     <div class="mt-20 md:w-4/5" data-aos="fade-right" data-aos-delay="0">
                         <h2 class="text-[#F5F5F5] text-2xl">Advanced Filtration Installation</h2>
-                        <p class="mt-8">Eaula delivers premium still and sparkling water, purified with high-grade Italian filtration and served in elegant, microplastic-free glass bottles.</p>
+                        <p class="mt-8">Eaula delivers premium still and sparkling water, purified with high-grade Italian filtration and served in elegant, microplastic-free bottles.</p>
                     </div>
                 </div>
                 
@@ -259,7 +252,7 @@
                             :end-val="78411"
                             :duration="3"
                             :decimal-places="0"
-                            suffix=" kg"
+                            suffix=" kg+"
                             wrapper-class="text-3xl md:text-7xl mt-4"
                             data-aos="fade-up"
                         />
