@@ -127,7 +127,7 @@
                     <span class="block absolute top-0 left-2 -translate-x-1/2 bg-white w-[1px] h-full"></span>
                     <div class="md:w-4/5" data-aos="fade-up">
                         <h2 class="text-[#F5F5F5] text-2xl">Advanced Filtration Installation</h2>
-                        <p class="mt-8">Eaula delivers premium still and sparkling water, purified with high-grade Italian filtration and served in elegant, microplastic-free glass bottles.</p>
+                        <p class="mt-8">Eaula delivers premium still and sparkling water, purified with high-grade Italian filtration and served in elegant, microplastic-free bottles.</p>
                     </div>
                 </div>
                 <div class="relative flex justify-start items-start gap-8 pt-8">
