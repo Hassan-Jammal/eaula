@@ -486,6 +486,9 @@
         { icon: "terra", alt: "Terra" },
         { icon: "almayass", alt: "Almayass" },
         { icon: "joes-cafe", alt: "Joe's Cafe" },
+        { icon: "parlour", alt: "Parlour" },
+        { icon: "new-shanghai", alt: "New Shanghai" },
+        { icon: "claw-bbq", alt: "Claw BBQ" },
     ]
 
     const { selectedCountry, detectCountry, countriesData } = useCountry();
