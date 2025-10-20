@@ -489,6 +489,8 @@
         { icon: "parlour", alt: "Parlour" },
         { icon: "new-shanghai", alt: "New Shanghai" },
         { icon: "claw-bbq", alt: "Claw BBQ" },
+        { icon: "goldfish", alt: "Goldfish" },
+        { icon: "coffee-club", alt: "Coffee Club" },
     ]
 
     const { selectedCountry, detectCountry, countriesData } = useCountry();
