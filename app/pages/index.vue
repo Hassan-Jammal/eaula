@@ -493,6 +493,7 @@
         { icon: "coffee-club", alt: "Coffee Club" },
         { icon: "sufret-maryam", alt: "Sufret Maryam" },
         { icon: "al-beiruti", alt: "Al Beiruti" },
+        { icon: "tezukuri", alt: "Tezukuri" },
     ]
 
     const { selectedCountry, detectCountry, countriesData } = useCountry();
