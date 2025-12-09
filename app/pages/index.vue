@@ -494,6 +494,8 @@
         { icon: "sufret-maryam", alt: "Sufret Maryam" },
         { icon: "al-beiruti", alt: "Al Beiruti" },
         { icon: "tezukuri", alt: "Tezukuri" },
+        { icon: "home-bakery", alt: "Home Bakery" },
+        { icon: "sushi-art", alt: "Sushi Art" },
     ]
 
     const { selectedCountry, detectCountry, countriesData } = useCountry();
