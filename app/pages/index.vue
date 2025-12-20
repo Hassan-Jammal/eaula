@@ -238,7 +238,7 @@
                     <div class="w-1/2 pr-4 md:pr-12 py-12 border-r-[0.5px] border-white">
                         <p class="text-base" data-aos="fade-up">Bottles Eliminated <br /> (500mL)</p>
                         <AnimatedCounter
-                            :end-val="1200000"
+                            :end-val="1500000"
                             :duration="3"
                             :decimal-places="0"
                             suffix="+"
@@ -249,7 +249,7 @@
                     <div class="w-1/2 pl-4 md:pl-12 py-12 border-l-[0.5px] border-white">
                         <p class="text-base" data-aos="fade-up">CO2 Emissions <br /> Reduced</p>
                         <AnimatedCounter
-                            :end-val="98760"
+                            :end-val="123000"
                             :duration="3"
                             :decimal-places="0"
                             suffix=" kg+"
@@ -495,6 +495,9 @@
         { icon: "al-beiruti", alt: "Al Beiruti logo" },
         { icon: "tezukuri", alt: "Tezukuri logo" },
         { icon: "sushi-art", alt: "Sushi Art logo" },
+        { icon: "savour", alt: "Savour logo" },
+        { icon: "el-primo", alt: "El Primo logo" },
+        { icon: "sals-bistro", alt: "Sal's Bistro logo" },
     ]
 
     const { selectedCountry, detectCountry, countriesData } = useCountry();
