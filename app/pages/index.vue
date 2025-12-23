@@ -498,6 +498,10 @@
         { icon: "savour", alt: "Savour logo" },
         { icon: "el-primo", alt: "El Primo logo" },
         { icon: "sals-bistro", alt: "Sal's Bistro logo" },
+        { icon: "the-grey", alt: "The Grey logo" },
+        { icon: "stellas", alt: "Stella's logo" },
+        { icon: "pdl", alt: "PDL logo" },
+        { icon: "freinds-avenue", alt: "Friends Avenue logo" },
     ]
 
     const { selectedCountry, detectCountry, countriesData } = useCountry();
