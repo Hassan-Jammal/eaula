@@ -502,6 +502,7 @@
         { icon: "stellas", alt: "Stella's logo" },
         { icon: "pdl", alt: "PDL logo" },
         { icon: "friends-avenue", alt: "Friends Avenue logo" },
+        { icon: "bred", alt: "Bred logo" },
     ]
 
     const { selectedCountry, detectCountry, countriesData } = useCountry();
