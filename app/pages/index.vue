@@ -503,6 +503,8 @@
         { icon: "pdl", alt: "PDL logo" },
         { icon: "friends-avenue", alt: "Friends Avenue logo" },
         { icon: "bred", alt: "Bred logo" },
+        { icon: "arrows-and-sparrows", alt: "Arrows & Sparrows Logo" },
+        { icon: "caffeine-and-culture", alt: "Caffeine & Culture Logo" },
     ]
 
     const { selectedCountry, detectCountry, countriesData } = useCountry();
