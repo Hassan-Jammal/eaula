@@ -437,6 +437,7 @@
         { icon: "paul", alt: "Paul Bakery and Restaurant logo" },
         { icon: "le-relais-de-lentrecote", alt: "Le Relais de l'Entrecôte logo" },
         { icon: "babel", alt: "Babel Restaurant logo" },
+        { icon: "laduree", alt: "Laduree logo" },
         { icon: "home-bakery", alt: "Home Bakery logo" },
         { icon: "woodfire", alt: "Woodfire Restaurant logo" },
         { icon: "moonrise", alt: "Moonrise Dubai logo" },
@@ -498,13 +499,17 @@
         { icon: "savour", alt: "Savour logo" },
         { icon: "el-primo", alt: "El Primo logo" },
         { icon: "sals-bistro", alt: "Sal's Bistro logo" },
-        { icon: "the-grey", alt: "The Grey logo" },
+        // { icon: "the-grey", alt: "The Grey logo" },
         { icon: "stellas", alt: "Stella's logo" },
         { icon: "pdl", alt: "PDL logo" },
         { icon: "friends-avenue", alt: "Friends Avenue logo" },
         { icon: "bred", alt: "Bred logo" },
         { icon: "arrows-and-sparrows", alt: "Arrows & Sparrows Logo" },
         { icon: "caffeine-and-culture", alt: "Caffeine & Culture Logo" },
+        { icon: "leila", alt: "Leila Logo" },
+        { icon: "derwandi", alt: "Derwandi Logo" },
+        { icon: "sushi-library", alt: "Sushi Library Logo" },
+        { icon: "window", alt: "Window Logo" },
     ]
 
     const { selectedCountry, detectCountry, countriesData } = useCountry();
