@@ -238,7 +238,7 @@
                     <div class="w-1/2 pr-4 md:pr-12 py-12 border-r-[0.5px] border-white">
                         <p class="text-base" data-aos="fade-up">Bottles Eliminated <br /> (500mL)</p>
                         <AnimatedCounter
-                            :end-val="2252300"
+                            :end-val="2635900"
                             :duration="3"
                             :decimal-places="0"
                             suffix="+"
@@ -249,7 +249,7 @@
                     <div class="w-1/2 pl-4 md:pl-12 py-12 border-l-[0.5px] border-white">
                         <p class="text-base" data-aos="fade-up">CO2 Emissions <br /> Reduced</p>
                         <AnimatedCounter
-                            :end-val="185000"
+                            :end-val="216000"
                             :duration="3"
                             :decimal-places="0"
                             suffix=" kg+"
@@ -510,6 +510,12 @@
         { icon: "derwandi", alt: "Derwandi Logo" },
         { icon: "sushi-library", alt: "Sushi Library Logo" },
         { icon: "window", alt: "Window Logo" },
+        { icon: "the-hut", alt: "The Hut Logo" },
+        { icon: "sirali", alt: "Sirali Logo" },
+        { icon: "la-letizia", alt: "La Latizia Logo" },
+        { icon: "jamies-oliver", alt: "Jamies Oliver Logo" },
+        { icon: "jamies-italian", alt: "Jamies Italian Logo" },
+        { icon: "ibn-el-baher", alt: "Ibn el Baher Logo" },
     ]
 
     const { selectedCountry, detectCountry, countriesData } = useCountry();
