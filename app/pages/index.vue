@@ -517,7 +517,7 @@
         { icon: "jamies-italian", alt: "Jamies Italian Logo" },
         { icon: "ibn-el-baher", alt: "Ibn el Baher Logo" },
         { icon: "la-lupa", alt: "La Lupa Logo" },
-        { icon: "ona-logo", alt: "Ona Logo" },
+        { icon: "ona", alt: "Ona Logo" },
     ]
 
     const { selectedCountry, detectCountry, countriesData } = useCountry();
