@@ -518,6 +518,18 @@
         { icon: "ibn-el-baher", alt: "Ibn el Baher Logo" },
         { icon: "la-lupa", alt: "La Lupa Logo" },
         { icon: "ona", alt: "Ona Logo" },
+        { icon: "tingirie", alt: "Tingirie Logo" },
+        { icon: "the-mark", alt: "The Mark Logo" },
+        { icon: "tahini", alt: "Tahini Logo" },
+        { icon: "occo", alt: "OCCO Logo" },
+        { icon: "more-cafe", alt: "More Cafe Logo" },
+        { icon: "mereu", alt: "Mereu Logo" },
+        { icon: "kinoya", alt: "Kinoya Logo" },
+        { icon: "harats-republic", alt: "Harat's Republic Logo" },
+        { icon: "fahid-beach-clun", alt: "Fahid Beach Club Logo" },
+        { icon: "cabana", alt: "Cabana Logo" },
+        { icon: "bombay-house", alt: "Bombay House Logo" },
+        { icon: "abu-el-zolof", alt: "Abu El Zolof Logo" },
     ]
 
     const { selectedCountry, detectCountry, countriesData } = useCountry();
