@@ -529,7 +529,7 @@
         { icon: "fahid-beach-club", alt: "Fahid Beach Club Logo" },
         { icon: "cabana", alt: "Cabana Logo" },
         { icon: "bombay-house", alt: "Bombay House Logo" },
-        { icon: "abu-el-zulof", alt: "Abu El Zolof Logo" },
+        { icon: "abu-el-zulof", alt: "Abu El Zulof Logo" },
     ]
 
     const { selectedCountry, detectCountry, countriesData } = useCountry();
