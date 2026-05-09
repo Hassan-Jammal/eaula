@@ -466,7 +466,7 @@
         { icon: "bosporus", alt: "Bosporus Turkish Cuisine logo" },
         { icon: "matter-by-icoffee", alt: "Matter by iCoffee logo" },
         { icon: "black-coffee", alt: "Black Coffee logo" },
-        { icon: "fifth-flavor", alt: "Fifth Flavor logo" },
+        // { icon: "fifth-flavor", alt: "Fifth Flavor logo" },
         { icon: "thea", alt: "Thea Restaurant logo" },
         { icon: "eatopi", alt: "Eatopi logo" },
         { icon: "spill-the-bean", alt: "Spill the Bean Café logo" },
@@ -530,6 +530,7 @@
         { icon: "tahini", alt: "Tahini Logo" },
         { icon: "the-mark", alt: "The Mark Logo" },
         { icon: "tingirie", alt: "Tingirie Logo" },
+        { icon: "molten-chocolate-cafe", alt: "Molten Chocolate Cafe Logo" },
     ]
 
     const { selectedCountry, detectCountry, countriesData } = useCountry();
