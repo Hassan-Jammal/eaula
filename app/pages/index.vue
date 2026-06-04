@@ -531,6 +531,9 @@
         { icon: "the-mark", alt: "The Mark Logo" },
         { icon: "tingirie", alt: "Tingirie Logo" },
         { icon: "molten-chocolate-cafe", alt: "Molten Chocolate Cafe Logo" },
+        { icon: "bend-and-blend", alt: "Bend & Blend Logo" },
+        { icon: "levant", alt: "Levant Logo" },
+        { icon: "peoples", alt: "Peoples Logo" },
     ]
 
     const { selectedCountry, detectCountry, countriesData } = useCountry();
