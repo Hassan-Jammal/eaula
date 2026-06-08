@@ -477,7 +477,7 @@
         { icon: "charlie-and-friends", alt: "Charlie and Friends logo" },
         { icon: "wine-arts-soiree", alt: "Wine & Arts Soiree logo" },
         { icon: "hoof", alt: "Hoof logo" },
-        { icon: "aura", alt: "Aura Bakery & Cafe logo" },
+        // { icon: "aura", alt: "Aura Bakery & Cafe logo" },
         { icon: "society", alt: "Society logo" },
         { icon: "oforo", alt: "Oforo logo" },
         { icon: "miyabi", alt: "Miyabi logo" },
@@ -534,6 +534,8 @@
         { icon: "bend-and-blend", alt: "Bend & Blend Logo" },
         { icon: "levant", alt: "Levant Logo" },
         { icon: "peoples", alt: "Peoples Logo" },
+        { icon: "beit-maryam", alt: "Bait Maryam Logo" },
+        
     ]
 
     const { selectedCountry, detectCountry, countriesData } = useCountry();
