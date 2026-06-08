@@ -534,7 +534,7 @@
         { icon: "bend-and-blend", alt: "Bend & Blend Logo" },
         { icon: "levant", alt: "Levant Logo" },
         { icon: "peoples", alt: "Peoples Logo" },
-        { icon: "beit-maryam", alt: "Bait Maryam Logo" },
+        { icon: "bait-maryam", alt: "Bait Maryam Logo" },
         
     ]
 
