@@ -238,7 +238,7 @@
                     <div class="w-1/2 pr-4 md:pr-12 py-12 border-r-[0.5px] border-white">
                         <p class="text-base" data-aos="fade-up">Bottles Eliminated <br /> (500mL)</p>
                         <AnimatedCounter
-                            :end-val="2970604"
+                            :end-val="3847400"
                             :duration="3"
                             :decimal-places="0"
                             suffix="+"
@@ -249,7 +249,7 @@
                     <div class="w-1/2 pl-4 md:pl-12 py-12 border-l-[0.5px] border-white">
                         <p class="text-base" data-aos="fade-up">CO2 Emissions <br /> Reduced</p>
                         <AnimatedCounter
-                            :end-val="243000"
+                            :end-val="315700"
                             :duration="3"
                             :decimal-places="0"
                             suffix=" kg+"
