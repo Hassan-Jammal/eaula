@@ -535,7 +535,9 @@
         { icon: "levant", alt: "Levant Logo" },
         { icon: "peoples", alt: "Peoples Logo" },
         { icon: "bait-maryam", alt: "Bait Maryam Logo" },
-        
+        { icon: "mazah", alt: "Mazah Logo" },
+        { icon: "not-only-fish", alt: "Not Only Fish Logo" },
+        { icon: "sah-el-nom", alt: "Sah El Nom Logo" },
     ]
 
     const { selectedCountry, detectCountry, countriesData } = useCountry();
