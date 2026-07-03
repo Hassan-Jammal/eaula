@@ -33,18 +33,18 @@
 </template>
 
 <script setup>
-    const isOpen = ref(false)
+const isOpen = ref(false)
 </script>
 
 <style scoped>
-    /* Smooth fade for overlay */
-    .fade-enter-active,
-    .fade-leave-active {
-        transition: opacity 0.3s ease;
-    }
-    .fade-enter-from,
-    .fade-leave-to {
-        opacity: 0;
-    }
+/* Smooth fade for overlay */
+.fade-enter-active,
+.fade-leave-active {
+    transition: opacity 0.3s ease;
+}
 
+.fade-enter-from,
+.fade-leave-to {
+    opacity: 0;
+}
 </style>
