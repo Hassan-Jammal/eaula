@@ -520,6 +520,11 @@ const partners = [
     // { icon: "mazah", alt: "Mazah Logo" },
     { icon: "not-only-fish", alt: "Not Only Fish Logo" },
     // { icon: "sah-el-nom", alt: "Sah El Nom Logo" },
+    { icon: "amara", alt: "Amara Logo" },
+    { icon: "foodings", alt: "Foodings Logo" },
+    { icon: "midhat-pasha", alt: "Midhat Pasha Logo" },
+    { icon: "oja", alt: "OJA Wellnes Cafe Logo" },
+    { icon: "shinobi", alt: "Shinobi Logo" },
 ]
 
 const { selectedCountry, detectCountry, countriesData } = useCountry();
