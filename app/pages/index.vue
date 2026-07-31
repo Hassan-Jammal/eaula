@@ -525,6 +525,14 @@ const partners = [
     { icon: "midhat-pasha", alt: "Midhat Pasha Logo" },
     // { icon: "oja", alt: "OJA Wellnes Cafe Logo" },
     { icon: "shinobi", alt: "Shinobi Logo" },
+    { icon: "euphoria", alt: "Euphoria Logo" },
+    { icon: "crunch", alt: "Crunch Logo" },
+    { icon: "china-tang", alt: "China Tang Logo" },
+    { icon: "berenoak", alt: "Berenoak Logo" },
+    { icon: "syrovarnya", alt: "Syrovarnya Logo" },
+    { icon: "stomping-grounds", alt: "Stomping Grounds Logo" },
+    { icon: "so-eatery", alt: "So Eatery Logo" },
+    { icon: "kabab-erbil", alt: "Kabab Erbil Logo" },
 ]
 
 const { selectedCountry, detectCountry, countriesData } = useCountry();
