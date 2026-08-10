@@ -533,6 +533,13 @@ const partners = [
     { icon: "stomping-grounds", alt: "Stomping Grounds Logo" },
     { icon: "so-eatery", alt: "So Eatery Logo" },
     { icon: "kabab-erbil", alt: "Kabab Erbil Logo" },
+    { icon: "spartan", alt: "Spartan Logo" },
+    { icon: "nolus", alt: "Nolu's Logo" },
+    { icon: "miya", alt: "MIYA Logo" },
+    { icon: "gaf", alt: "GAF Logo" },
+    { icon: "besh", alt: "Besh Logo" },
+    { icon: "back-to-roots", alt: "Back To Roots Logo" },
+    { icon: "and-more", alt: "& More Logo" },
 ]
 
 const { selectedCountry, detectCountry, countriesData } = useCountry();
