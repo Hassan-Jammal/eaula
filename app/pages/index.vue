@@ -541,6 +541,7 @@ const partners = [
     { icon: "back-to-roots", alt: "Back To Roots Logo" },
     { icon: "and-more", alt: "& More Logo" },
     { icon: "fogo-de-chao", alt: "Fogo De Chao Logo" },
+    { icon: "maxzi", alt: "Maxzi Logo" },
 ]
 
 const { selectedCountry, detectCountry, countriesData } = useCountry();
