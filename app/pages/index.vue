@@ -540,6 +540,7 @@ const partners = [
     { icon: "besh", alt: "Besh Logo" },
     { icon: "back-to-roots", alt: "Back To Roots Logo" },
     { icon: "and-more", alt: "& More Logo" },
+    { icon: "fogo-de-chao", alt: "Fogo De Chao Logo" },
 ]
 
 const { selectedCountry, detectCountry, countriesData } = useCountry();
