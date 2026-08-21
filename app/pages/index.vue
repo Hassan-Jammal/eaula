@@ -544,6 +544,9 @@ const partners = [
     { icon: "maxzi", alt: "Maxzi Logo" },
     { icon: "clap-of-flour", alt: "Clap of Flour Logo" },
     { icon: "sheraton", alt: "Sheraton Logo" },
+    { icon: "ziya", alt: "Ziya Logo" },
+    { icon: "mood", alt: "mood Logo" },
+    { icon: "anantara", alt: "Anantara Logo" },
 ]
 
 const { selectedCountry, detectCountry, countriesData } = useCountry();
