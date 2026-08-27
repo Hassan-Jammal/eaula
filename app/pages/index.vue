@@ -547,6 +547,8 @@ const partners = [
     { icon: "ziya", alt: "Ziya Logo" },
     { icon: "mood", alt: "mood Logo" },
     { icon: "anantara", alt: "Anantara Logo" },
+    { icon: "punjab-grill", alt: "Punjab Grill Logo" },
+    { icon: "saya", alt: "Saya Logo" },
 ]
 
 const { selectedCountry, detectCountry, countriesData } = useCountry();
