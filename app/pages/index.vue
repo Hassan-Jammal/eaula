@@ -416,7 +416,7 @@ const certifications = [
 
 const partners = [
     { icon: "kokoro", alt: "Kokoro Japanese Restaurant logo" },
-    { icon: "paul", alt: "Paul Bakery and Restaurant logo" },
+    // { icon: "paul", alt: "Paul Bakery and Restaurant logo" },
     { icon: "le-relais-de-lentrecote", alt: "Le Relais de l'Entrecôte logo" },
     { icon: "babel", alt: "Babel Restaurant logo" },
     { icon: "laduree", alt: "Laduree logo" },
