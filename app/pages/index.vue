@@ -368,17 +368,26 @@ import { useTextAnimateOnScroll } from '~/composables/useTextAnimateOnScroll';
 
 useTextAnimateOnScroll(); // automatically handles all elements with .animated-text
 
+const siteUrl = 'https://eaula.com'
+
 useSeoMeta({
     title: '',
     description: 'THE FUTURE OF WATER IS LOCAL',
 
     ogTitle: '',
     ogDescription: 'THE FUTURE OF WATER IS LOCAL',
-    ogImage: 'https://eaulawater.com/images/og-image-1200x630.webp',
+    ogImage: `${siteUrl}/images/og-image-1200x630.webp`,
+    ogUrl: `${siteUrl}/`,
+    ogType: 'website',
 
     twitterTitle: '',
     twitterDescription: 'THE FUTURE OF WATER IS LOCAL',
+    twitterImage: `${siteUrl}/images/og-image-1200x630.webp`,
     twitterCard: 'summary_large_image',
+})
+
+useHead({
+    link: [{ rel: 'canonical', href: `${siteUrl}/` }],
 })
 
 const certifications = [
