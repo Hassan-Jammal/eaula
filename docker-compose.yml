@@ -1,0 +1,32 @@
+services:
+  eaulanew-frontend:
+    container_name: eaulanew-frontend
+    build:
+      context: .
+      dockerfile: Dockerfile.dev
+    # Dockerfile.dev's CMD binds Nuxt to localhost inside the container, which
+    # the proxy can't reach. Override it here instead of editing the Dockerfile,
+    # which the production build on the VPS also reads.
+    command: npm run dev -- --host 0.0.0.0 --port 3000
+    volumes:
+      - .:/eaula
+      - eaula_frontend_node_modules:/eaula/node_modules
+      - eaula_frontend_nuxt:/eaula/.nuxt
+    environment:
+      NODE_ENV: development
+      CHOKIDAR_USEPOLLING: "true"
+    restart: unless-stopped
+    networks:
+      - npm
+      - eaula
+
+volumes:
+  eaula_frontend_node_modules:
+  eaula_frontend_nuxt:
+
+networks:
+  eaula:
+    driver: bridge
+  npm:
+    external: true
+    name: npm
