@@ -233,11 +233,11 @@
                 <div class="flex justify-between">
                     <div class="w-1/2 pr-4 md:pr-12 py-12 border-r-[0.5px] border-white">
                         <p class="text-base" data-aos="fade-up">Bottles Eliminated <br /> (500mL)</p>
-                        <AnimatedCounter :end-val="5368780" :duration="3" :decimal-places="0" suffix="+" wrapper-class="text-3xl md:text-7xl mt-4" data-aos="fade-up" />
+                        <AnimatedCounter :end-val="5970180" :duration="3" :decimal-places="0" suffix="+" wrapper-class="text-3xl md:text-7xl mt-4" data-aos="fade-up" />
                     </div>
                     <div class="w-1/2 pl-4 md:pl-12 py-12 border-l-[0.5px] border-white">
                         <p class="text-base" data-aos="fade-up">CO2 Emissions <br /> Reduced</p>
-                        <AnimatedCounter :end-val="441922" :duration="3" :decimal-places="0" suffix=" kg+" wrapper-class="text-3xl md:text-7xl mt-4" data-aos="fade-up" />
+                        <AnimatedCounter :end-val="491838" :duration="3" :decimal-places="0" suffix=" kg+" wrapper-class="text-3xl md:text-7xl mt-4" data-aos="fade-up" />
                     </div>
                 </div>
             </div>
@@ -566,6 +566,11 @@ const partners = [
     { icon: "gerbou", alt: "Gerbou Logo" },
     { icon: "culture-deli", alt: "Culture Deli Logo" },
     { icon: "boon-roasters", alt: "Boon Roasters Logo" },
+    { icon: "the-meat-avenue", alt: "The Meat Avenue Logo" },
+    { icon: "lucky-fish", alt: "Lucky Fish Logo" },
+    { icon: "gallery-740", alt: "Gallery 740 Logo" },
+    { icon: "frnds", alt: "FRNDS Logo" },
+    { icon: "noren", alt: "Noren Logo" },
 ]
 
 const { selectedCountry, detectCountry, countriesData } = useCountry();
