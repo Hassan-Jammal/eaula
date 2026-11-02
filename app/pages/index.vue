@@ -571,6 +571,10 @@ const partners = [
     { icon: "gallery-740", alt: "Gallery 740 Logo" },
     { icon: "frnds", alt: "FRNDS Logo" },
     { icon: "noren", alt: "Noren Logo" },
+    { icon: "bmd", alt: "BMD Logo" },
+    { icon: "le-guilan", alt: "Le Guilan Logo" },
+    { icon: "logma", alt: "Logma Logo" },
+    { icon: "sacra", alt: "Sacra Logo" },
 ]
 
 const { selectedCountry, detectCountry, countriesData } = useCountry();
