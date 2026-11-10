@@ -424,9 +424,9 @@ const certifications = [
 ]
 
 const partners = [
+    { icon: "four-seasons-jumeirah", alt: "Four Seasons Jumeirah Logo" },
     { icon: "joujou", alt: "JouJou Logo" },
     { icon: "seafu", alt: "Seafu Logo" },
-    { icon: "four-seasons-jumeirah", alt: "Four Seasons Jumeirah Logo" },
     { icon: "kokoro", alt: "Kokoro Japanese Restaurant logo" },
     // { icon: "paul", alt: "Paul Bakery and Restaurant logo" },
     { icon: "le-relais-de-lentrecote", alt: "Le Relais de l'Entrecôte logo" },
