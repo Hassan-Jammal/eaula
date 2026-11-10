@@ -424,6 +424,9 @@ const certifications = [
 ]
 
 const partners = [
+    { icon: "joujou", alt: "JouJou Logo" },
+    { icon: "seafu", alt: "Seafu Logo" },
+    { icon: "four-seasons-jumeirah", alt: "Four Seasons Jumeirah Logo" },
     { icon: "kokoro", alt: "Kokoro Japanese Restaurant logo" },
     // { icon: "paul", alt: "Paul Bakery and Restaurant logo" },
     { icon: "le-relais-de-lentrecote", alt: "Le Relais de l'Entrecôte logo" },
@@ -575,9 +578,6 @@ const partners = [
     { icon: "le-guilan", alt: "Le Guilan Logo" },
     { icon: "logma", alt: "Logma Logo" },
     { icon: "sacra", alt: "Sacra Logo" },
-    { icon: "joujou", alt: "JouJou Logo" },
-    { icon: "seafu", alt: "Seafu Logo" },
-    { icon: "four-seasons-jumeirah", alt: "Four Seasons Jumeirah Logo" },
 ]
 
 const { selectedCountry, detectCountry, countriesData } = useCountry();
