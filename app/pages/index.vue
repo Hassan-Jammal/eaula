@@ -425,6 +425,10 @@ const certifications = [
 
 const partners = [
     { icon: "four-seasons-jumeirah", alt: "Four Seasons Jumeirah Logo" },
+    { icon: "anantara", alt: "Anantara Dubai Downtown Logo" },
+    { icon: "sheraton", alt: "Sheraton MOE Logo" },
+    { icon: "arjaan-rotana-dubai", alt: "Arjaan Rotana Dubai Logo" },
+
     { icon: "joujou", alt: "JouJou Logo" },
     { icon: "seafu", alt: "Seafu Logo" },
     { icon: "kokoro", alt: "Kokoro Japanese Restaurant logo" },
@@ -555,10 +559,8 @@ const partners = [
     { icon: "fogo-de-chao", alt: "Fogo De Chao Logo" },
     { icon: "maxzi", alt: "Maxzi Logo" },
     { icon: "clap-of-flour", alt: "Clap of Flour Logo" },
-    { icon: "sheraton", alt: "Sheraton Logo" },
     { icon: "ziya", alt: "Ziya Logo" },
     { icon: "mood", alt: "mood Logo" },
-    { icon: "anantara", alt: "Anantara Logo" },
     { icon: "punjab-grill", alt: "Punjab Grill Logo" },
     { icon: "saya", alt: "Saya Logo" },
     { icon: "the-sib", alt: "The Sib Logo" },
@@ -578,7 +580,6 @@ const partners = [
     { icon: "le-guilan", alt: "Le Guilan Logo" },
     { icon: "logma", alt: "Logma Logo" },
     { icon: "sacra", alt: "Sacra Logo" },
-    { icon: "arjaan-rotana-dubai", alt: "Arjaan Rotana Dubai Logo" },
     { icon: "cilantro", alt: "Cilantro Logo" },
     { icon: "crazy-horse", alt: "Crazy Horse Logo" },
     { icon: "pastel-cakes", alt: "Pastel Cakes Logo" },
