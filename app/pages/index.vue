@@ -578,6 +578,10 @@ const partners = [
     { icon: "le-guilan", alt: "Le Guilan Logo" },
     { icon: "logma", alt: "Logma Logo" },
     { icon: "sacra", alt: "Sacra Logo" },
+    { icon: "arjaan-rotana-dubai", alt: "Arjaan Rotana Dubai Logo" },
+    { icon: "cilantro", alt: "Cilantro Logo" },
+    { icon: "crazy-horse", alt: "Crazy Horse Logo" },
+    { icon: "pastel-cakes", alt: "Pastel Cakes Logo" },
 ]
 
 const { selectedCountry, detectCountry, countriesData } = useCountry();
