@@ -428,6 +428,7 @@ const partners = [
     { icon: "anantara", alt: "Anantara Dubai Downtown Logo" },
     { icon: "sheraton", alt: "Sheraton MOE Logo" },
     { icon: "arjaan-rotana-dubai", alt: "Arjaan Rotana Dubai Logo" },
+    { icon: "aloft", alt: "ALoft Logo" },
 
     { icon: "joujou", alt: "JouJou Logo" },
     { icon: "seafu", alt: "Seafu Logo" },
@@ -583,6 +584,11 @@ const partners = [
     { icon: "cilantro", alt: "Cilantro Logo" },
     { icon: "crazy-horse", alt: "Crazy Horse Logo" },
     { icon: "pastel-cakes", alt: "Pastel Cakes Logo" },
+    { icon: "misfits", alt: "Misfits Logo" },
+    { icon: "merak", alt: "Merak Logo" },
+    { icon: "hide-out", alt: "Hideout Logo" },
+    { icon: "refuel", alt: "Refuel Logo" },
+    { icon: "the-canteen", alt: "The Canteen Logo" },
 ]
 
 const { selectedCountry, detectCountry, countriesData } = useCountry();
